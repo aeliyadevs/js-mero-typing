@@ -7,9 +7,26 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
+    <header>
+      <div class="brand">Mero <span>Typing</span></div>
+      <ul>
+        <li>About</li>
+        <li>Typing Tips</li>
+        <li>Contact Developer</li>
+      </ul>
+    </header>
     <div class="wrapper">
-      <h1>Mero Typing</h1>
+      <h1>Typing is fun</h1>
       <p>Learn to type in English and Nepali language in a fun way!</p>
+      <div class="d-flex">
+        <div class="timer">
+          <img src="/assets//icons/timer.svg" />
+          <span>02:55</span>
+        </div>
+        <div class="setting">
+          <img src="/assets/icons/settings.svg" />
+        </div>
+      </div>
       <div class="typing-field">
         <form method="post">
           <textarea name="generated" id="generated" class="generated-text">
@@ -18,11 +35,21 @@ Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus eveniet atqu
           <textarea name="typed" id="typed" class="typed-text"></textarea>
         </form>
       </div>
-      <div class="progress">
-        <div class="progress-bar"></div>
-        <span class="timer">02:55</span>
+      <div class="progress-bar"></div>
+      <div class="stats">
+        <div class="stat-item wpm"><span>45</span> <br />WPM</div>
+        <div class="stat-item accuracy"><span>95%</span> <br />Accuracy</div>
+        <div class="stat-item test-duration"><span>3</span> <br />Minutes</div>
       </div>
     </div>
+    <footer>
+      <ul>
+        <li>GitHub</li>
+        <li>LinkedIn</li>
+        <li>Twitter</li>
+        <li>Facebook</li>
+      </ul>
+    </footer>
     <script src="assets/js/main.js"></script>
   </body>
 </html>
